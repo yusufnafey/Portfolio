@@ -6,7 +6,12 @@ class Landing extends Component {
     return (
       <div>
         <Grid className="landing-grid">
-          <Cell col={12}>Hello</Cell>
+          <Cell col={12}>
+            <img
+              src="https://cdn3.iconfinder.com/data/icons/simplius-pack/512/user-512.png"
+              alt="avatar"
+            />
+          </Cell>
         </Grid>
       </div>
     );

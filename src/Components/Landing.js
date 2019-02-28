@@ -23,8 +23,23 @@ class Landing extends Component {
                 <a
                   href="https://www.linkedin.com/in/yusuf-nafey-166b60123/"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <i class="fab fa-linkedin" />
+                  <i className="fab fa-linkedin" />
+                </a>
+                <a
+                  href="https://github.com/yusufnafey"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-github-square" />
+                </a>
+                <a
+                  href="https://twitter.com/YusufNafey"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <i class="fab fa-twitter-square" />
                 </a>
               </div>
             </div>

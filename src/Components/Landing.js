@@ -14,6 +14,19 @@ class Landing extends Component {
             />
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
+              <hr />
+              <p>
+                HTML/CSS | Bootstrap | JavaScript | React | React Native |
+                NodeJS | Express | MongoDB{" "}
+              </p>
+              <div className="social-links">
+                <a
+                  href="https://www.linkedin.com/in/yusuf-nafey-166b60123/"
+                  target="_blank"
+                >
+                  <i class="fab fa-linkedin" />
+                </a>
+              </div>
             </div>
           </Cell>
         </Grid>

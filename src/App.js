@@ -35,4 +35,7 @@ class App extends Component {
   }
 }
 
+// fix font sizes
+// fix css reset
+
 export default App;

@@ -1,3 +1,27 @@
+.container {
+  width: 100%;
+  margin: auto;
+
+  .avatar-img {
+    height: 250px;
+    padding-top: 5em;
+  }
+
+  .banner-text {
+    background-color: black;
+    opacity: 0.8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+
+    h1 {
+      font-size: 66px;
+      font-weight: bold;
+      color: white;
+    }
+  }
+}
+
 .header-color {
   background: #c6ffdd; /* fallback for old browsers */
   background: -webkit-linear-gradient(

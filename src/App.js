@@ -37,5 +37,6 @@ class App extends Component {
 
 // fix font sizes
 // fix css reset
+// change position in app.css for these pages from fixed to relative (landing page and contact page?)
 
 export default App;

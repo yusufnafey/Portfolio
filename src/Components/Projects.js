@@ -9,6 +9,8 @@ class Projects extends Component {
     };
   }
 
+  if(this.state)
+
   render() {
     return (
       <div className="category-tabs">
@@ -22,6 +24,7 @@ class Projects extends Component {
           <Tab>VueJS</Tab>
           <Tab>MongoDB</Tab>
         </Tabs>
+        <section className="projects-grid">{this.toggleCategories}</section>
       </div>
     );
   }

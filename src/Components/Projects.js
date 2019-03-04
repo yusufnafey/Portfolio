@@ -24,7 +24,7 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div>
+        <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{ minWidth: "350px", margin: "auto" }}>
             <CardTitle
@@ -125,8 +125,103 @@ class Projects extends Component {
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div>
-          <h1>This is Angular</h1>
+        <div className="projects-grid">
+          {/* Project 1 */}
+          <Card shadow={5} style={{ minWidth: "350px", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "black",
+                height: "235px",
+                background:
+                  "url(https://cdn.iconscout.com/icon/free/png-256/angular-226066.png) center / cover"
+              }}
+            >
+              Angular Project #1
+            </CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </CardText>
+            <CardActions
+              border
+              style={{
+                textAlign: "center"
+              }}
+            >
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Project 2 */}
+          <Card shadow={5} style={{ minWidth: "350px", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "black",
+                height: "235px",
+                background:
+                  "url(http://www.stickpng.com/assets/images/5847ea22cef1014c0b5e4833.png) center / cover"
+              }}
+            >
+              Angular Project #2
+            </CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </CardText>
+            <CardActions
+              border
+              style={{
+                textAlign: "center"
+              }}
+            >
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Project 3 */}
+          <Card shadow={5} style={{ minWidth: "350px", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "black",
+                height: "235px",
+                background:
+                  "url(https://blog.savoirfairelinux.com/en-ca/wp-content/uploads/sites/2/2017/12/angular-logo.png) center / cover"
+              }}
+            >
+              Angular Project #3
+            </CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </CardText>
+            <CardActions
+              border
+              style={{
+                textAlign: "center"
+              }}
+            >
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
         </div>
       );
     } else if (this.state.activeTab === 2) {
@@ -157,13 +252,11 @@ class Projects extends Component {
           <Tab>VueJS</Tab>
           <Tab>MongoDB</Tab>
         </Tabs>
-        <section className="projects-grid">
-          <Grid className="projects-grid">
-            <Cell col={12}>
-              <div className="content">{this.toggleCategories()}</div>
-            </Cell>
-          </Grid>
-        </section>
+        <Grid>
+          <Cell col={12}>
+            <div className="content">{this.toggleCategories()}</div>
+          </Cell>
+        </Grid>
       </div>
     );
   }

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
+import Education from "./Education";
 
 class Resume extends Component {
   render() {
@@ -35,7 +36,8 @@ class Resume extends Component {
             <hr />
           </Cell>
           <Cell className="resume-right-col" col={8}>
-            Right Side
+            <h2>Education</h2>
+            <Education />
           </Cell>
         </Grid>
       </div>

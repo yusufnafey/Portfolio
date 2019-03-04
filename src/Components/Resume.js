@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Education from "./Education";
+import Experience from "./Experience";
 
 class Resume extends Component {
   render() {
@@ -37,7 +38,32 @@ class Resume extends Component {
           </Cell>
           <Cell className="resume-right-col" col={8}>
             <h2>Education</h2>
-            <Education startYear={2012} />
+            <Education
+              startYear={2012}
+              endYear={2016}
+              schoolName="San Jose City College"
+              schoolDescription="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+            />
+            <Education
+              startYear={2014}
+              endYear={2018}
+              schoolName="Lambda School"
+              schoolDescription="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+            />
+            <hr />
+            <h2>Experience</h2>
+            <Experience
+              startYear={2009}
+              endYear={2012}
+              jobName="First Job"
+              jobDescription="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+            />
+            <Experience
+              startYear={2013}
+              endYear={2015}
+              jobName="Second Job"
+              jobDescription="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+            />
           </Cell>
         </Grid>
       </div>

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Grid, Cell } from "react-mdl";
 import Education from "./Education";
 import Experience from "./Experience";
+import Skills from "./Skills";
 
 class Resume extends Component {
   render() {
@@ -64,6 +65,9 @@ class Resume extends Component {
               jobName="Second Job"
               jobDescription="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
             />
+            <hr />
+            <h2>Skills</h2>
+            <Skills />
           </Cell>
         </Grid>
       </div>

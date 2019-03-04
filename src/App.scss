@@ -125,6 +125,15 @@
     hr {
       border-top: 3px solid #e22947;
     }
+
+    .skills {
+      display: flex;
+
+      .progress-bar {
+        margin: auto;
+        width: 75%;
+      }
+    }
   }
 }
 

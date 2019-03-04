@@ -8,12 +8,10 @@ class Skills extends Component {
         <Cell col={12}>
           <div className="skills">
             <div>{this.props.skill}</div>
-            <div className="progress-bar-container">
-              <ProgressBar
-                className="progress-bar"
-                progress={this.props.progress}
-              />
-            </div>
+            <ProgressBar
+              className="progress-bar"
+              progress={this.props.progress}
+            />
           </div>
         </Cell>
       </Grid>

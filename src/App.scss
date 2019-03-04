@@ -127,15 +127,8 @@
     }
 
     .skills {
-      display: flex;
-      justify-content: space-around;
-
-      .progress-bar-container {
-        width: 100%;
-        .progress-bar {
-          margin: auto;
-          width: 75%;
-        }
+      .progress-bar {
+        width: 75%;
       }
     }
   }

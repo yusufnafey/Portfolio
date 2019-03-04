@@ -91,9 +91,31 @@
 
 .resume-body {
   .resume-left-col {
+    .left-div {
+      text-align: center;
+
+      img {
+        height: 200px;
+      }
+    }
+
+    h2 {
+      padding-top: 2em;
+    }
+
+    h4 {
+      color: gray;
+    }
+
+    hr {
+      border-top: 3px solid #833fb2;
+      width: 50%;
+    }
   }
 
   .resume-right-col {
+    background-color: #27221f;
+    color: white;
   }
 }
 

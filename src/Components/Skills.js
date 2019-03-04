@@ -7,8 +7,13 @@ class Skills extends Component {
       <Grid>
         <Cell col={12}>
           <div className="skills">
-            {this.props.skill}{" "}
-            <ProgressBar className="progress-bar" progress={44} />
+            <div>{this.props.skill}</div>
+            <div className="progress-bar-container">
+              <ProgressBar
+                className="progress-bar"
+                progress={this.props.progress}
+              />
+            </div>
           </div>
         </Cell>
       </Grid>

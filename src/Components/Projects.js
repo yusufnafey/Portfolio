@@ -41,7 +41,7 @@ class Projects extends Component {
     return (
       <div className="category-tabs">
         <Tabs
-          activeTab={this.state.avtiveTab}
+          activeTab={this.state.activeTab}
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
@@ -50,7 +50,7 @@ class Projects extends Component {
           <Tab>VueJS</Tab>
           <Tab>MongoDB</Tab>
         </Tabs>
-        <section className="projects-grid">{this.toggleCategories}</section>
+        <section className="projects-grid">{this.toggleCategories()}</section>
       </div>
     );
   }

@@ -129,5 +129,17 @@
       width: 50%;
       margin: auto;
     }
+
+    .contact-list {
+      .list-item-content {
+        font-size: 25px;
+        font-family: "Anton", sans-serif;
+
+        i {
+          font-size: 66px;
+          padding-right: 5rem;
+        }
+      }
+    }
   }
 }

@@ -25,36 +25,101 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div>
-          <Card shadow={5} style={{ minWidth: "450px", margin: "auto" }}>
+          {/* Project 1 */}
+          <Card shadow={5} style={{ minWidth: "350px", margin: "auto" }}>
             <CardTitle
               style={{
-                color: "#fff",
-                height: "176px",
+                color: "black",
+                height: "235px",
                 background:
-                  "url(https://cdn.worldvectorlogo.com/logos/react.svg) center / cover"
+                  "url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover"
               }}
             >
-              <CardText>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book. It has
-                survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged. It was
-                popularised in the 1960s with the release of Letraset sheets
-                containing Lorem Ipsum passages, and more recently with desktop
-                publishing software like Aldus PageMaker including versions of
-                Lorem Ipsum.
-              </CardText>
-              <CardActions border>
-                <Button colored>GitHub</Button>
-                <Button colored>CodePen</Button>
-                <Button colored>LiveDemo</Button>
-              </CardActions>
-              <CardMenu style={{ color: "#fff" }}>
-                <IconButton name="share" />
-              </CardMenu>
+              React Project #1
             </CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </CardText>
+            <CardActions
+              border
+              style={{
+                textAlign: "center"
+              }}
+            >
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Project 2 */}
+          <Card shadow={5} style={{ minWidth: "350px", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "black",
+                height: "235px",
+                background:
+                  "url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover"
+              }}
+            >
+              React Project #2
+            </CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </CardText>
+            <CardActions
+              border
+              style={{
+                textAlign: "center"
+              }}
+            >
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
+          </Card>
+          {/* Project 3 */}
+          <Card shadow={5} style={{ minWidth: "350px", margin: "auto" }}>
+            <CardTitle
+              style={{
+                color: "black",
+                height: "235px",
+                background:
+                  "url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover"
+              }}
+            >
+              React Project #3
+            </CardTitle>
+            <CardText>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book.
+            </CardText>
+            <CardActions
+              border
+              style={{
+                textAlign: "center"
+              }}
+            >
+              <Button colored>GitHub</Button>
+              <Button colored>CodePen</Button>
+              <Button colored>LiveDemo</Button>
+            </CardActions>
+            <CardMenu style={{ color: "#fff" }}>
+              <IconButton name="share" />
+            </CardMenu>
           </Card>
         </div>
       );

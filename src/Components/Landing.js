@@ -21,7 +21,7 @@ class Landing extends Component {
               </p>
               <div className="social-links">
                 <a
-                  href="https://www.linkedin.com/in/yusuf-nafey-166b60123/"
+                  href="https://www.linkedin.com/in/yusufnafey/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

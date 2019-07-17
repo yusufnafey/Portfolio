@@ -135,9 +135,6 @@ class Projects extends Component {
           ripple
         >
           <Tab>React</Tab>
-          <Tab>Angular</Tab>
-          <Tab>VueJS</Tab>
-          <Tab>MongoDB</Tab>
         </Tabs>
         <Grid>
           <Cell col={12}>

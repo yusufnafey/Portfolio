@@ -123,20 +123,6 @@ class Projects extends Component {
           </Card>
         </div>
       );
-    } else if (this.state.activeTab === 1) {
-      return <div className="projects-grid" />;
-    } else if (this.state.activeTab === 2) {
-      return (
-        <div>
-          <h1>This is VueJS</h1>
-        </div>
-      );
-    } else if (this.state.activeTab === 3) {
-      return (
-        <div>
-          <h1>This is MongoDB</h1>
-        </div>
-      );
     }
   }
 

@@ -124,6 +124,120 @@ class Projects extends Component {
         </div>
       );
     }
+    // else if (this.state.activeTab === 1) {
+    //   return (
+    //     <div className="projects-grid">
+    //       {/* Project 1 */}
+    //       <Card shadow={5} style={{ minWidth: "350px", margin: "auto" }}>
+    //         <CardTitle
+    //           style={{
+    //             color: "black",
+    //             height: "235px",
+    //             background:
+    //               "url(https://cdn.iconscout.com/icon/free/png-256/angular-226066.png) center / cover"
+    //           }}
+    //         >
+    //           Angular Project #1
+    //         </CardTitle>
+    //         <CardText>
+    //           Lorem Ipsum is simply dummy text of the printing and typesetting
+    //           industry. Lorem Ipsum has been the industry's standard dummy text
+    //           ever since the 1500s, when an unknown printer took a galley of
+    //           type and scrambled it to make a type specimen book.
+    //         </CardText>
+    //         <CardActions
+    //           border
+    //           style={{
+    //             textAlign: "center"
+    //           }}
+    //         >
+    //           <Button colored>GitHub</Button>
+    //           <Button colored>CodePen</Button>
+    //           <Button colored>LiveDemo</Button>
+    //         </CardActions>
+    //         <CardMenu style={{ color: "#fff" }}>
+    //           <IconButton name="share" />
+    //         </CardMenu>
+    //       </Card>
+    //       {/* Project 2 */}
+    //       <Card shadow={5} style={{ minWidth: "350px", margin: "auto" }}>
+    //         <CardTitle
+    //           style={{
+    //             color: "black",
+    //             height: "235px",
+    //             background:
+    //               "url(http://www.stickpng.com/assets/images/5847ea22cef1014c0b5e4833.png) center / cover"
+    //           }}
+    //         >
+    //           Angular Project #2
+    //         </CardTitle>
+    //         <CardText>
+    //           Lorem Ipsum is simply dummy text of the printing and typesetting
+    //           industry. Lorem Ipsum has been the industry's standard dummy text
+    //           ever since the 1500s, when an unknown printer took a galley of
+    //           type and scrambled it to make a type specimen book.
+    //         </CardText>
+    //         <CardActions
+    //           border
+    //           style={{
+    //             textAlign: "center"
+    //           }}
+    //         >
+    //           <Button colored>GitHub</Button>
+    //           <Button colored>CodePen</Button>
+    //           <Button colored>LiveDemo</Button>
+    //         </CardActions>
+    //         <CardMenu style={{ color: "#fff" }}>
+    //           <IconButton name="share" />
+    //         </CardMenu>
+    //       </Card>
+    //       {/* Project 3 */}
+    //       <Card shadow={5} style={{ minWidth: "350px", margin: "auto" }}>
+    //         <CardTitle
+    //           style={{
+    //             color: "black",
+    //             height: "235px",
+    //             background:
+    //               "url(https://blog.savoirfairelinux.com/en-ca/wp-content/uploads/sites/2/2017/12/angular-logo.png) center / cover"
+    //           }}
+    //         >
+    //           Angular Project #3
+    //         </CardTitle>
+    //         <CardText>
+    //           Lorem Ipsum is simply dummy text of the printing and typesetting
+    //           industry. Lorem Ipsum has been the industry's standard dummy text
+    //           ever since the 1500s, when an unknown printer took a galley of
+    //           type and scrambled it to make a type specimen book.
+    //         </CardText>
+    //         <CardActions
+    //           border
+    //           style={{
+    //             textAlign: "center"
+    //           }}
+    //         >
+    //           <Button colored>GitHub</Button>
+    //           <Button colored>CodePen</Button>
+    //           <Button colored>LiveDemo</Button>
+    //         </CardActions>
+    //         <CardMenu style={{ color: "#fff" }}>
+    //           <IconButton name="share" />
+    //         </CardMenu>
+    //       </Card>
+    //     </div>
+    //   );
+    // } else if (this.state.activeTab === 2) {
+    //   return (
+    //     <div>
+    //       <h1>This is VueJS</h1>
+    //     </div>
+    //   );
+    // } else if (this.state.activeTab === 3) {
+    //   return (
+    //     <div>
+    //       <h1>This is MongoDB</h1>
+    //     </div>
+    //   );
+    // }
   }
 
   render() {
@@ -135,6 +249,9 @@ class Projects extends Component {
           ripple
         >
           <Tab>React</Tab>
+          {/* <Tab>Angular</Tab>
+          <Tab>VueJS</Tab>
+          <Tab>MongoDB</Tab> */}
         </Tabs>
         <Grid>
           <Cell col={12}>

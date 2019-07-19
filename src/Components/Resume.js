@@ -67,10 +67,11 @@ class Resume extends Component {
             />
             <hr />
             <h2>Skills</h2>
-            <Skills skill="HTML/CSS" progress={100} />
+            <p>HTML</p>
+            {/* <Skills skill="HTML/CSS" progress={100} />
             <Skills skill="JavaScript" progress={100} />
             <Skills skill="React" progress={75} />
-            <Skills skill="NodeJS" progress={50} />
+            <Skills skill="NodeJS" progress={50} /> */}
           </Cell>
         </Grid>
       </div>

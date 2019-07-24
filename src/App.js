@@ -3,7 +3,6 @@ import "./App.scss";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./Components/Main";
 import { Link } from "react-router-dom";
-import { black } from "ansi-colors";
 
 class App extends Component {
   render() {

@@ -35,14 +35,9 @@ class Projects extends Component {
                   "url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover"
               }}
             >
-              React Project #1
+              Knowledge Without College
             </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </CardText>
+            <CardText>Knowledge Without College is a job search</CardText>
             <CardActions
               border
               style={{

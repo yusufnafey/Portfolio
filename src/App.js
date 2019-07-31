@@ -3,6 +3,7 @@ import "./App.scss";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./Components/Main";
 import { Link } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
   render() {

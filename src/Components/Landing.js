@@ -7,7 +7,7 @@ class Landing extends Component {
       <div className="container">
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img src="me.jpg" alt="avatar" className="avatar-img" />
+            <img src="me.jpg" alt="avatar" className="avatar-img rounded" />
             <div className="banner-text">
               <h1>Full Stack Web Developer</h1>
               <hr />

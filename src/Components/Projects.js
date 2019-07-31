@@ -31,11 +31,10 @@ class Projects extends Component {
               style={{
                 color: "black",
                 height: "235px",
-                background:
-                  "url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover"
+                background: "url(kwc.png) center / cover"
               }}
             >
-              React Project #1
+              Knowledge Without College
             </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -49,9 +48,25 @@ class Projects extends Component {
                 textAlign: "center"
               }}
             >
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+              <Button colored>
+                <a
+                  colored
+                  href="https://github.com/Lambda-School-Labs/labs9-job-board"
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "#3F51B5" }}
+                >
+                  GitHub
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://knowledge-without-college.netlify.com"
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "#3F51B5" }}
+                >
+                  Live Demo
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
@@ -63,11 +78,10 @@ class Projects extends Component {
               style={{
                 color: "black",
                 height: "235px",
-                background:
-                  "url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover"
+                background: "url(online-store.png) center / cover"
               }}
             >
-              React Project #2
+              Online Store
             </CardTitle>
             <CardText>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -81,41 +95,25 @@ class Projects extends Component {
                 textAlign: "center"
               }}
             >
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
-            </CardActions>
-            <CardMenu style={{ color: "#fff" }}>
-              <IconButton name="share" />
-            </CardMenu>
-          </Card>
-          {/* Project 3 */}
-          <Card shadow={5} style={{ minWidth: "350px", margin: "auto" }}>
-            <CardTitle
-              style={{
-                color: "black",
-                height: "235px",
-                background:
-                  "url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png) center / cover"
-              }}
-            >
-              React Project #3
-            </CardTitle>
-            <CardText>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </CardText>
-            <CardActions
-              border
-              style={{
-                textAlign: "center"
-              }}
-            >
-              <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
-              <Button colored>LiveDemo</Button>
+              <Button colored>
+                <a
+                  colored
+                  href="https://github.com/yusufnafey/Online-Store"
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "#3F51B5" }}
+                >
+                  GitHub
+                </a>
+              </Button>
+              <Button colored>
+                <a
+                  href="https://online-store-yusuf.netlify.com"
+                  target="_blank"
+                  style={{ textDecoration: "none", color: "#3F51B5" }}
+                >
+                  Live Demo
+                </a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: "#fff" }}>
               <IconButton name="share" />
